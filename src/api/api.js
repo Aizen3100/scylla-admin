@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL : "https://scylla-backend.onrender.com", //change the backend url when you deploy
+    baseURL : "https://scylla-server.onrender.com", //change the backend url when you deploy
     withCredentials: true,
 
 })
